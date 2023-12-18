@@ -1,0 +1,679 @@
+* {
+  margin: 0;
+}
+
+
+
+.head {
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+}
+
+.left {
+  background-color: white;
+  padding: 20px;
+  width: 41%;
+}
+
+.middle {
+  background-color: white;
+}
+
+.right {
+  background-color: white;
+  flex: 1;
+  z-index: 100;
+}
+
+.main-logo {
+  height: 50px;
+  margin-left: 200px;
+}
+
+.resp-logo {
+  display: none;
+}
+
+.contact-icon {
+  height: 45px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.middle h6 {
+  display: inline-block;
+  font-family: Questrial;
+  width: 130px;
+  position: relative;
+  bottom: 25px;
+}
+
+.language-form {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+
+.dropdown {
+  position: relative;
+  bottom: 10px;
+  border-style: none;
+  border-radius: 3px;
+  border: solid 1px gray;
+  font-family: Questrial;
+  height: 20px;
+}
+
+.fa {
+  padding: 10px;
+  text-decoration: none;
+  width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.fa-facebook {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  background: rgb(21, 21, 129);
+}
+
+.fa-twitter {
+  background-color: rgb(0, 174, 255);
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-twitter:hover {
+  background: rgb(54, 54, 112);
+}
+
+.login-button {
+  margin-left: 20px;
+  border-style: none;
+  font-family: Questrial;
+  padding: 10px;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+  transition: 0.5s;
+
+}
+
+.login-button:hover {
+  transform: scale(1.2);
+}
+
+.navbar {
+  background-image: linear-gradient(330deg,
+      rgb(21, 116, 9) 1%,
+      rgb(0, 107, 148) 94%);
+  padding: 20px;
+
+}
+
+.nav-items  {
+  cursor: pointer;
+  display: flex;
+  font-family: Questrial;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  align-content: center;
+  padding-top: 15px;
+  list-style: none;
+  font-size: larger;
+  z-index: 100 !important;
+
+}
+
+.p-resp {
+  display: none;
+}
+
+.nav-items li:hover {
+  text-decoration: underline;
+}
+li.contact-us a{
+
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+li.contact-us a::hover{
+
+  text-decoration: underline;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.first-background {
+  height: 750px;
+  width: auto;
+  max-width: 100%;
+
+
+}
+
+.first-background-resp {
+  display: none;
+}
+
+.info {
+
+
+  width: 355px;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 450px 0;
+  line-height: 30px;
+
+}
+
+.info-resp {
+
+  display: none;
+}
+
+.info::before {
+
+  content: url(https://www.woodstoneadultday.com/wp-content/themes/woodstoneadultka113/images/bnr-decor.png);
+  position: absolute;
+  top: 168px;
+  height: 100%;
+  left: -686px;
+  z-index: -1 ;
+}
+
+.info button {
+
+  border-style: none;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  font-family: Questrial;
+  color: white;
+  padding: 10px;
+  width: 160px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.info button:hover {
+  background: linear-gradient(330deg, rgb(21, 116, 9) 1%, rgb(0, 107, 148) 94%);
+  transform: scale(1.1);
+}
+
+.second-page {
+
+  background-image: url(https://www.uhhospitals.org/-/media/Images/Blog/7-tips-to-keep-enjoying-life-as-you-get-older.jpg?h=600&w=960&la=en&hash=566F07EB305BA41EBFDD702C81E2C51C2C8DF555);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.second-page-info {
+  width: 650px;
+  max-width: 80%;
+  line-height: 40px;
+  float: right;
+  margin-top: 100px;
+  display: block;
+  margin-right: 20px;
+  padding: 20px;
+
+}
+
+.second-page p {
+  font-family: Questrial;
+
+}
+
+.second-page h4 {
+  color: rgb(64, 158, 120);
+  font-family: Questrial;
+  letter-spacing: 2.5px;
+}
+
+.second-page h1 {
+  font-size: 55px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.second-page h2 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.second-page-p {
+  margin-top: 50px;
+}
+
+.third-page {
+
+  background: linear-gradient(-100deg,
+      rgb(21, 116, 9) 1%,
+      rgb(0, 107, 148) 94%);
+  width: 100%;
+  height: 100vh auto;
+}
+
+.third-page-infotext {
+
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: white;
+  margin-bottom: 200px;
+
+
+}
+
+.third-page-infotext h6 {
+
+  font-family: Questrial;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+.third-page-infotext h1 {
+
+  font-family: 'Julius Sans One', sans-serif;
+
+
+}
+
+.third-page-infotext p {
+
+  font-size: 12px;
+  margin-top: 15px;
+  font-family: Questrial;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+
+}
+
+.card {
+  width: 230px;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  flex-basis: 200;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover {
+
+  transform: scale(1.1);
+}
+
+.card-image {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+
+}
+
+.card h3 {
+
+  margin-bottom: 80px;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.card button {
+
+  border-style: none;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  color: white;
+  font-family: Questrial;
+  padding: 10px;
+  width: 60%;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.card button:hover {
+
+  background: linear-gradient(330deg, rgb(21, 116, 9) 1%, rgb(0, 107, 148) 94%);
+
+
+}
+
+.fourth-page {
+
+  background-image: url(https://www.caregivercalifornia.org/wp-content/uploads/2022/08/pexels-shvets-production-7545245-scaled.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 90vh auto;
+}
+
+.fourth-page-info {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+
+
+
+
+}
+
+.fourth-page-info-left {
+
+
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.fourth-page-info-center {
+
+
+  width: 40%;
+  display: flex;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  max-width: 100%;
+}
+
+.fourth-page-info-right {
+
+  margin-top: 30px;
+}
+
+.fourth-page-info button {
+
+  border-style: none;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  font-family: Questrial;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  width: 150px;
+  cursor: pointer;
+  margin-right: 20px;
+
+}
+
+.fourth-page-info button:hover {
+
+  background: linear-gradient(330deg, rgb(21, 116, 9) 1%, rgb(0, 107, 148) 94%);
+
+
+}
+
+.fourth-page-info-left h6 {
+  color: rgb(64, 158, 120);
+  font-family: Questrial;
+  letter-spacing: 5px;
+}
+
+.fourth-page-info-left h1 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.fourth-page-info-center p {
+
+  font-family: Questrial;
+  line-height: 20px;
+
+}
+
+
+.fourth-page-card {
+  width: 250px;
+  height: 270px;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  flex-basis: 200;
+  cursor: pointer;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  transition: 0.5s;
+
+}
+
+.fourth-page-card:hover {
+
+  transform: scale(1.1);
+  background: linear-gradient(330deg, rgb(21, 116, 9) 1%, rgb(0, 107, 148) 94%);
+}
+
+.fourth-page-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 500px;
+
+}
+
+.fourth-page-card h3 {
+
+  margin: auto;
+  width: 64%;
+
+}
+
+.card-image-fifth {
+
+  height: 80px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.fifth-page {
+
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 70vh;
+
+
+
+
+}
+
+.fifth-page-container {
+
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+
+
+
+
+}
+
+
+.fifth-page-container h6 {
+
+  margin-left: 20px;
+  font-family: Questrial;
+  letter-spacing: 2px;
+  color: rgb(64, 158, 120);
+}
+
+.fifth-page-container h1 {
+
+
+  margin-left: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  border-width: 1px;
+  font-family: Questrial;
+
+
+}
+
+input[type=submit] {
+
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  color: white;
+  width: 130px;
+  font-size: small;
+
+}
+
+input.name {
+
+  width: 324px;
+}
+
+input.msg {
+  width: 56%;
+}
+
+form {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.fifth-img {
+
+  height: 200px;
+  width: 230px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+  border: 5px solid #f5f5f5;
+
+}
+
+.footer {
+
+  width: 100%;
+  color: white;
+  height: 60vh auto;
+  background: linear-gradient(330deg, rgb(21, 116, 9) 1%, rgb(0, 107, 148) 94%);
+}
+
+.ft-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.ft {
+
+  margin-right: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ft-2 button {
+
+  border-style: none;
+  color: white;
+  background: linear-gradient(270deg, #7f007e 0, #510e51 97%);
+  padding: 15px;
+  border-radius: 20px;
+  font-family: Questrial;
+  cursor: pointer;
+}
+
+.ft-icon {
+
+  height: 80px;
+}
+
+.ft-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-1 h5 {
+
+  font-family: Questrial;
+  letter-spacing: 2px;
+}
+
+.ft-1 h1 {
+
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.ft-1 p {
+
+  font-family: Questrial;
+
+}
+
+.navbar-footer {
+  background-color: white;
+  padding: 20px;
+
+}
+
+.nav-items-footer {
+  cursor: pointer;
+  display: flex;
+  font-family: Questrial;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  align-content: center;
+  padding-top: 15px;
+  list-style: none;
+  font-size: larger;
+  z-index: 100;
+
+}
+.nav-items-footer li:hover {
+  text-decoration: underline;
+}
